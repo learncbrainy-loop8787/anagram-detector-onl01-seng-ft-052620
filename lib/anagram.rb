@@ -8,8 +8,8 @@ class Anagram
 end
 
 def match(array_of_words)
-   array_of_words.select do ||
-      (@name.split("").sort) == (words.split("").sort)
+   array_of_words.select do |array|
+      (@name.split("").sort) == (array.split("").sort)
     end
 end
 end
