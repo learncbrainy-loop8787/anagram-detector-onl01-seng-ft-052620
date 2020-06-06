@@ -12,3 +12,4 @@ def match(array_of_words)
       (@word.split("").sort) == (element.split("").sort)
     end
 end
+end
